@@ -1,0 +1,92 @@
+---
+title: "Title Goes Here"
+
+output: 
+  revealjs::revealjs_presentation:
+    incremental: false
+    transition: fade
+    slide_level: 1
+    progress: false
+    css: custom.css
+    reveal_options:
+      controls: false
+      slideNumber: 'c/t'
+    self_contained: false
+    reveal_plugins: ["notes"]
+    showNotes: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# How to view the presentation
+
+- Click Knit to see the presentation
+- After knitting, press arrow keys or space to navigate
+- Press 'o' to see the overview and 'f' to go back to full screen    
+
+---
+
+- This slide has no title because it uses a horizontal rule
+
+- goes vertical if slide_level: 2
+
+# cucumber
+
+<div class="fragment" style="margin-top: 50px; margin-bottom: 50px;">
+- Only works when incremental: false (or need extra clicks)
+</div>
+<div class="fragment" style="margin-top: 50px; margin-bottom: 50px;">
+- separate classes by a space
+  <div class="fragment">
+     - cake
+  </div>   
+  <div class="fragment">
+     - cake
+  </div>   
+  <div class="fragment">
+     - cake
+  </div>   
+</div>
+<div class="fragment" style="margin-top: 50px; margin-bottom: 50px;">
+- **eggs**
+    - tomato
+    - banana
+</div>
+
+<aside class="notes">
+These are some notes
+</aside>
+
+# section slide
+
+<aside class="notes">
+These are some notes
+</aside>
+
+# font
+
+# font
+
+- second slide
+
+# speaker notes
+
+- hit 's' on keyboard
+
+# images
+
+<aside class="notes">
+These are some more notes
+</aside>
+
+# two-column
+
+# progress bar
+
+# printing
+
+# list style types
+
+

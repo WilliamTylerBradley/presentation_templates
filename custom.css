@@ -1,0 +1,26 @@
+.reveal .slides {
+    text-align: left;
+}
+
+.reveal .make_red {
+   color: red;
+  
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: green;
+  color: green;
+}
+
+.reveal .progress span{
+  background: red;
+}
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+.reveal .slide-number {
+  color: rgb(242, 56, 24); }
