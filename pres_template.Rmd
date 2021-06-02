@@ -1,16 +1,16 @@
 ---
-title: "Title Goes Here"
+title: "Presentation Template"
 
 output: 
   revealjs::revealjs_presentation:
     incremental: false
     transition: fade
     slide_level: 1
-    progress: false
     css: custom.css
     reveal_options:
       controls: false
       slideNumber: 'c/t'
+      progress: false
     self_contained: false
     reveal_plugins: ["notes"]
     showNotes: true
@@ -20,7 +20,17 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# How to view the presentation
+# Agenda
+
+- Basics
+- Formatting
+- Content
+- Movement
+- Other
+
+# Basics {data-background=red}
+ 
+# How to view the presentation {data-background="background.png"}
 
 - Click Knit to see the presentation
 - After knitting, press arrow keys or space to navigate
@@ -67,13 +77,17 @@ These are some notes
 
 # font
 
-# font
-
 - second slide
+
+# transitions
+
+# fragments
 
 # speaker notes
 
 - hit 's' on keyboard
+
+# list style types
 
 # images
 
@@ -85,8 +99,23 @@ These are some more notes
 
 # progress bar
 
+# Gitpages
+
+- Push to Github
+- Set up pages
+- Move JS up into main folder
+- specify presentation in URL
+
 # printing
 
-# list style types
+- download npm
+- $ npm install decktape
+- $ `npm bin`/decktape
+- (wherever node is)
+
+# print 2
+
+- `npm bin`/decktape reveal https://williamtylerbradley.github.io/presentation_templates/pres_template.html test.pdf
+- `npm bin`/decktape --screenshots --screenshots-format=png --screenshots-directory=Documents reveal https://williamtylerbradley.github.io/presentation_templates/pres_template.html test.pdf
 
 

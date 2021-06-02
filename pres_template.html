@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>Title Goes Here</title>
+  <title>Presentation Template</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -450,11 +450,24 @@ document.getElementsByTagName('head')[0].appendChild(style);
     <div class="slides">
 
 <section>
-    <h1 class="title">Title Goes Here</h1>
+    <h1 class="title">Presentation Template</h1>
 </section>
 
-<section id="how-to-view-the-presentation" class="slide level1">
-<h1>How to view the presentation</h1>
+<section id="agenda" class="slide level1">
+<h1>Agenda</h1>
+<ul>
+<li>Basics</li>
+<li>Formatting</li>
+<li>Content</li>
+<li>Movement</li>
+<li>Other</li>
+</ul>
+</section>
+<section id="basics" class="slide level1" data-background="red">
+<h1 data-background="red">Basics</h1>
+</section>
+<section id="how-to-view-the-presentation" class="slide level1" data-background="background.png">
+<h1 data-background="background.png">How to view the presentation</h1>
 <ul>
 <li>Click Knit to see the presentation</li>
 <li>After knitting, press arrow keys or space to navigate</li>
@@ -516,18 +529,24 @@ These are some notes
 </section>
 <section id="font" class="slide level1">
 <h1>font</h1>
-</section>
-<section id="font-1" class="slide level1">
-<h1>font</h1>
 <ul>
 <li>second slide</li>
 </ul>
+</section>
+<section id="transitions" class="slide level1">
+<h1>transitions</h1>
+</section>
+<section id="fragments" class="slide level1">
+<h1>fragments</h1>
 </section>
 <section id="speaker-notes" class="slide level1">
 <h1>speaker notes</h1>
 <ul>
 <li>hit ‘s’ on keyboard</li>
 </ul>
+</section>
+<section id="list-style-types" class="slide level1">
+<h1>list style types</h1>
 </section>
 <section id="images" class="slide level1">
 <h1>images</h1>
@@ -541,11 +560,30 @@ These are some more notes
 <section id="progress-bar" class="slide level1">
 <h1>progress bar</h1>
 </section>
+<section id="gitpages" class="slide level1">
+<h1>Gitpages</h1>
+<ul>
+<li>Push to Github</li>
+<li>Set up pages</li>
+<li>Move JS up into main folder</li>
+<li>specify presentation in URL</li>
+</ul>
+</section>
 <section id="printing" class="slide level1">
 <h1>printing</h1>
+<ul>
+<li>download npm</li>
+<li>$ npm install decktape</li>
+<li>$ <code>npm bin</code>/decktape</li>
+<li>(wherever node is)</li>
+</ul>
 </section>
-<section id="list-style-types" class="slide level1">
-<h1>list style types</h1>
+<section id="print-2" class="slide level1">
+<h1>print 2</h1>
+<ul>
+<li><code>npm bin</code>/decktape reveal <a href="https://williamtylerbradley.github.io/presentation_templates/pres_template.html" class="uri">https://williamtylerbradley.github.io/presentation_templates/pres_template.html</a> test.pdf</li>
+<li><code>npm bin</code>/decktape –screenshots –screenshots-format=png –screenshots-directory=Documents reveal <a href="https://williamtylerbradley.github.io/presentation_templates/pres_template.html" class="uri">https://williamtylerbradley.github.io/presentation_templates/pres_template.html</a> test.pdf</li>
+</ul>
 </section>
     </div>
   </div>
@@ -560,6 +598,8 @@ These are some more notes
       Reveal.initialize({
         // Display controls in the bottom right corner
         controls: false,
+        // Display a presentation progress bar
+        progress: false,
         // Display the page number of the current slide
         slideNumber: 'c/t',
         // Push each slide change to the browser history

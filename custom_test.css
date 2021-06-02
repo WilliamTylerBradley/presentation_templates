@@ -1,32 +1,18 @@
-/*********************************************
- * GLOBAL STYLES
- *********************************************/
 .reveal .slides {
     text-align: left;
 }
 
-body {
-  background-image: url('background.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity:1;
-	z-index:1;
-}
-
-/*****
- Section Break
- *****/
 .reveal .section_break {
    color: white;
+   background-color: #123456;
+   background: #123456;
    text-align: center;
    margin: auto;
 }
 
-html.section_break {
-  background: blue;
+.reveal .section_break h1{
+  background: none;
 }
-/* put background here or there will be squares behind text */
 
 /*********************************************
  * PROGRESS BAR
